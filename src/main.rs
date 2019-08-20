@@ -3,7 +3,7 @@ use std::mem;
 fn main() {
     //_tuples();
     //_arrays();
-    _strings();
+    //_strings();
 }
 
 fn _tuples() {
@@ -27,8 +27,8 @@ fn _arrays() {
 }
 
 fn _strings() {
-    let t = "test String"
-    let s = "String".to_string();
+    let t = "test String";
+    let _s = "String".to_string();
     let ss = String::from(t);
 
     let slice = &ss[0..4];

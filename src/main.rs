@@ -3,7 +3,7 @@ use std::mem;
 fn main() {
     //_tuples();
     //_arrays();
-    //_strings();
+    _strings();
 }
 
 fn _tuples() {

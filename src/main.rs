@@ -1,11 +1,9 @@
 use std::mem;
 
 fn main() {
-    println!("Hello, World!");
     //_tuples();
     //_arrays();
     //_strings();
-
 }
 
 fn _tuples() {

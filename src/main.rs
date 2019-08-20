@@ -27,8 +27,9 @@ fn _arrays() {
 }
 
 fn _strings() {
+    let t = "test String"
     let s = "String".to_string();
-    let ss = String::from(s);
+    let ss = String::from(t);
 
     let slice = &ss[0..4];
     println!("{}", slice);
